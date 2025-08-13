@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-float med(float a,float b){
+void med(float a,float b){
 	float media =(a+b)/2;
 	printf("A media dos dois numeros e: %.2f",media);	
 }
@@ -14,3 +14,4 @@ int main(){
 	return(0);
 	
 }
+
